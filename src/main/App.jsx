@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'font-awesome/css/font-awesome.min.css'
 import './App.css'
 import React from 'react';
 import Logo from '../components/template/Logo';
@@ -9,7 +11,7 @@ const App = props =>
   <div className="App">
     <Logo />
     <Nav />
-    <Main />
+    <Main icon="home" title="Home Page" subtitle="React" />
     <Footer />
   </div>
 

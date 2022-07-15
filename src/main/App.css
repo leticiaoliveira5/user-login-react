@@ -4,6 +4,7 @@
   --header-height: 100px;
   --footer-height: 40px;
   --aside-width: 225px;
+  --shadow: box-shadow: 5px 10px #888888;
 }
 
 * {
