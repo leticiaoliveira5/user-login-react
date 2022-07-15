@@ -1,0 +1,53 @@
+:root {
+  --bg-dark: grey;
+  --logo-height: 100px;
+  --header-height: 100px;
+  --footer-height: 40px;
+  --aside-width: 225px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+
+/* Layout em Grid */
+
+.App {
+  margin: 0;
+  display: grid;
+  grid-template-columns: var(--aside-width) 1fr;
+  grid-template-rows: 
+    var(--header-height) 
+    1fr 
+    var(--footer-height);
+  grid-template-areas: 
+    "logo header"
+    "menu content"
+    "menu footer";
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+aside.logo {
+  grid-area: logo;
+}
+
+header.header {
+  grid-area: header;
+}
+
+aside.menu-area {
+  grid-area: menu;
+}
+
+main.content {
+  grid-area: content;
+}
+
+footer.footer {
+  grid-area:  footer;
+}
