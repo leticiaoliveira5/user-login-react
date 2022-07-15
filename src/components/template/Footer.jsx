@@ -3,7 +3,10 @@ import React from 'react';
 
 const Footer = props =>
   <footer className="footer">
-    Footer
+    <span>
+      Desenvolvido com <i className='fa fa-heart text-danger'></i>
+      <strong> ReactJS </strong>
+    </span>
   </footer>
 
   export default Footer
