@@ -1,34 +1,9 @@
 {
   "users": [
     {
-      "id": 1,
       "name": "Arthur Oliveira",
-      "email": "aoliveira@cod3r.com.br"
-    },
-    {
-      "name": "",
-      "email": "",
-      "id": 2
-    },
-    {
-      "name": "",
-      "email": "",
-      "id": 3
-    },
-    {
-      "name": "",
-      "email": "",
-      "id": 4
-    },
-    {
-      "name": "",
-      "email": "",
-      "id": 5
-    },
-    {
-      "name": "",
-      "email": "",
-      "id": 6
+      "email": "aoliveira@cod3r.com.br",
+      "id": 1
     }
   ]
 }
