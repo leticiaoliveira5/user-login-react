@@ -1,20 +1,24 @@
-# React app
+## User-login-react (react app)
 
-Para rodar o app, primeiro rode o backend com:
+To run the app, first run the backend json server.
 
 ```
-cd goals-frontend/backend
+cd user-login-react/backend
 npm i
 npm start
 ```
 
-Depois rode o front com:
+Then run the frontend app:
 
 ```
-cd goals-frontend
+cd user-login-react
 npm i
 npm start
 ```
 
 Backend: port3001
 Frontend: port3000
+
+## Doc
+
+Documentation of the development proccess, in portuguese: [https://github.com/leticiaoliveira5/user-login-react/wiki](Wiki)
