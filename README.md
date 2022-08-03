@@ -21,4 +21,4 @@ Frontend: port3000
 
 ## Doc
 
-Documentation of the development proccess, in portuguese: [https://github.com/leticiaoliveira5/user-login-react/wiki](Wiki)
+Documentation of the development proccess, in portuguese: [Wiki](https://github.com/leticiaoliveira5/user-login-react/wiki)
