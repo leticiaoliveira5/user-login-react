@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "json-server": "0.17.0"
+    "json-server": "0.17.0",
+    "got": ">=11.8.5"
   },
   "scripts": {
     "start": "json-server --watch db.json --port 3001"
