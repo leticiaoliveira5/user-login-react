@@ -9,10 +9,7 @@
     "start": "json-server --watch db.json --port 3001"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": []
   },
   "browserslist": {
     "production": [
