@@ -7,7 +7,6 @@ No arquivo package.json do frontend, adicionar as dependências necessárias par
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
-    "bootstrap": "5.2",
     "front-awesome": "6.1.1",
     "react-router": "6.3.0",
     "react-router-dom": "6.3.0",
